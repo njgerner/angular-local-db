@@ -25,5 +25,14 @@
   "bugs": {
     "url": "https://github.com/njgerner/angular-local-db/issues"
   },
-  "homepage": "https://github.com/njgerner/angular-local-db#readme"
+  "homepage": "https://github.com/njgerner/angular-local-db#readme",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "angular-mocks": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  }
 }
