@@ -1,0 +1,27 @@
+{
+  "name": "angular-local-db",
+  "description": "An AngularJS module that provides a simple key-value browser based database API.",
+  "main": "dist/angular-local-db.js",
+  "authors": [
+    "Nick Gerner <hello@njgerner.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "localstorage",
+    "angular-cache",
+    "angular-local-db",
+    "local-db",
+    "db",
+    "$http",
+    "cache"
+  ],
+  "homepage": "https://github.com/njgerner/angular-local-db",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

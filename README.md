@@ -32,12 +32,12 @@ Install
 ### Bower
 
 ```bash
-bower install angular-local-db
+bower install angular-local-db --save
 ```
 
 ### NPM
 ```bash
-npm install angular-local-db
+npm install angular-local-db --save
 ```
 
 Usage
