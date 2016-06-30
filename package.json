@@ -1,6 +1,6 @@
 {
   "name": "angular-local-db",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An AngularJS module that provides a simple key-value browser based database API. ",
   "main": "angular-local-db.js",
   "scripts": {
