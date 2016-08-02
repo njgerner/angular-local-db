@@ -125,7 +125,7 @@ angular.module('angular-local-db', [])
         this.set(key, [value]); 
       } else {
         if (!Array.isArray(set)) { throw new Error ('The cached value at the given key is not a set. Key: ' + key); }
-        updated = false;
+        var updated = false;
         set.forEach(function (item, index, indexSet) {
           if (value && value[compareProperty] && item[compareProperty] == value[compareProperty]) {
             indexSet[index] = value;
@@ -251,7 +251,7 @@ angular.module('angular-local-db', [])
         this.setIndex(collection, index, [value]); 
       } else {
         if (!Array.isArray(set)) { throw new Error ('The cached value at the given key is not a set. Index: ' + index); }
-        updated = false;
+        var updated = false;
         set.forEach(function (item, index, indexSet) {
           if (value && value[compareProperty] && item[compareProperty] == value[compareProperty]) {
             indexSet[index] = value;
@@ -430,7 +430,7 @@ angular.module('angular-local-db', [])
         set = []; this.setSecondaryIndex(collection, index, secondary, [set]); 
       } else {
         if (!Array.isArray(set)) { throw new Error ('The cached value at the given key is not a set. Key: ' + key); }
-        updated = false;
+        var updated = false;
         set.forEach(function (item, index, indexSet) {
           if (value && value[compareProperty] && item[compareProperty] == value[compareProperty]) {
             indexSet[index] = value;
